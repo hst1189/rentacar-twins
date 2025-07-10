@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Tel",
+        "link": "tel:090-6297-9294",
+        "image": "images/social/icons8-tel-58.png"
+    },
+    {
+        "name": "Mail",
+        "link": "mailto:info.rentacar.twins@gmail.com",
+        "image": "images/social/icons8-mail-64.png"
+    },
+    {
+        "name": "Line",
+        "link": "https://access.line.me/oauth2/v2.1/login?fromDomain=access-auto.line.me&loginState=nBeMaOY7Mdu5aFeSo1hVfn&line_auto_login_error=universal_link_error&loginChannelId=1445834080&returnUri=oauth2v2.1authorizeconsentbot_promptnormalscopeopenidprofileresponse_typecodestateRhiVgBoLDGredirect_urihttps3A2F2Fform.tonariwa.com2Fsuntory2Fmeasure_url3Fcpid3Dtennensui_sampling426lcd3D126type3D126nonceEvutxGZ894client_id1445834080#/",
+        "image": "images/social/icons8-line-logo-96.png"
+    }
+]
