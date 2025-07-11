@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
+    "title": "🔖暮らし",
+    "description": "多様化しているバンライフのスタイルをご紹介。車での暮らしに便利な家電や調理グッズなどの生活に必要な情報をまとめています。",
+    "image": "images/features/imgi_1_17426.jpg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "images/features/noun_The Process_1885341.svg"
+    "title": "🔖車中泊",
+    "description": "車中泊スポットを始め、押さえておきたいコツや便利グッズ、車での過ごし方を紹介します。初心者の方や季節に合った車中泊ヒントを得たい方必見です。",
+    "image": "images/features/imgi_1_17eyJ1.jpg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "images/features/noun_3d modeling_1885342.svg"
+    "title": "🔖トラベル",
+    "description": "車旅の情報をまとめています。キャンピングカーや車中泊スポットを利用して楽しめる旅のプランや、キャンプや登山の聖地、地元のおすすめ観光地をご紹介。",
+    "image": "images/features/imgi_1_17193.jpg"
   }
 ]

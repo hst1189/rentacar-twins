@@ -12922,7 +12922,7 @@ ol {
     justify-content: flex-start; }
     .main-menu > ul > li {
       list-style: none;
-      font-size: 1rem; }
+      font-size: 0.8rem; }
       .main-menu > ul > li > a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
@@ -13314,14 +13314,15 @@ ol {
   text-align: center; }
   .feature .feature-image {
     flex: 0 0 auto;
-    width: 80px;
-    height: 80px;
+    width: 160px;
+    height: 160px;
     display: flex;
     margin-bottom: 20px;
     text-align: center; }
   .feature img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    border-radius: 100px; }
   .feature .feature-content {
     margin-bottom: 0;
     margin-top: auto; }
@@ -13329,8 +13330,8 @@ ol {
 .social {
   display: block; }
   .social img {
-    width: 20px;
-    height: 20px; }
+    width: 36px;
+    height: 36px; }
   .social a {
     padding: 10px;
     display: inline-block; }

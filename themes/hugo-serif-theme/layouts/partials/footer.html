@@ -3,18 +3,11 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h3 class="footer-title">
-          　　<img height={{ .Site.Params.logo.desktop_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" />　{{.Site.Title}} 
-          </h3>
-
+          <h3 class="footer-title">{{.Site.Title}} </h3>
           <!--{{ partial "footer-menu" . }}-->
-         
-          <div id="footer-menu" class="footer-menu">
-            {{ if .Site.Data.social }}
-            　　{{ partial "social.html" . }}
-          　　{{ end }}
-          </div>
-          
+          {{ if .Site.Data.social }}
+            {{ partial "social.html" . }}
+          {{ end }}
         </div>
       </div>
     </div>

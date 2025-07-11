@@ -4,10 +4,18 @@ date: 2018-02-22T17:01:34+07:00
 layout: contact
 ---
 
+
 ![map](/images/access/access.jpg)
 
-〒1780062　東京都練馬区大泉町1－27－5
+当店所在地
 
-TEL.090-6297-9294
+- 〒1780062　東京都練馬区大泉町1－27－5
+- TEL：090-6297-9294
+- E-Mail：info.rentacar.twins@gmail.com
 
-E-Mail：support@rentacar-twins.com
+
+キャンピングカーレンタル お問い合わせ・予約・専用ダイヤル（平日12:00～20:00）
+
+LINEからのご予約・お問い合わせを受け付けております。
+
+![line](/images/social/line_contact.jpg)

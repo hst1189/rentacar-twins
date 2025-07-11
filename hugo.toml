@@ -2,7 +2,7 @@ baseURL = "https://rentacar-twins.com/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "ja-jp"
-title = "ツインズ株式会社"
+title = "ツインズ株式会社 | キャンピングカーレンタル"
 
 [module]
   [module.hugoVersion]
@@ -14,20 +14,20 @@ title = "ツインズ株式会社"
   google_analytics_id = ""
   google_tag_manager_id = ""
   # favicon = "favicon-32x32.svg"
-  favicon = "images/logo/logo.jpg"
+  favicon = "/images/logo/logo.jpg"
 
   [params.homepage]
     sticky_header = true
     show_contact_box = true      # show / hide the contaxt box on the homepage
-    show_services_button = false # show / hide the "view all services" button
+    show_services_button = true  # show / hide the "view all services" button
 
   [params.logo]
     # mobile = "images/logo/logo-mobile.svg"
-    mobile = "images/logo/logo.jpg"
+    mobile = "/images/logo/logo.jpg"
     mobile_height = "36px"
     
     # desktop = "images/logo/logo.svg"
-    desktop = "images/logo/logo.jpg"
+    desktop = "/images/logo/logo.jpg"
     desktop_height = "36px"
     alt = "キャンピングカーレンタル- ツインズ株式会社"
 
@@ -62,60 +62,57 @@ title = "ツインズ株式会社"
   # Main Menu
 
   [[menu.main]]
-    name = "トップページ"
+    name = "トップ"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "サービス"
-    url = "/services/"
-    weight = 2  
+    name = "ご利用案内"
+    url = "/services/how-to-use/"
+    weight = 2
+
+  [[menu.main]]
+    name = "料金案内"
+    url = "/services/money/"
+    weight = 3
+
+ [[menu.main]]
+    name = "カレンダー＆空き情報"
+    url = "/services/free-space/"
+    weight = 4
 
   [[menu.main]]
     name = "車両紹介"
-    url = "/services/accounting/"
-    weight = 3
+    url = "/services/car-info/"
+    weight = 5
   
   [[menu.main]]
     name = "オプション"
-    url = "/services/business-advisory/"
-    weight = 4
-    
-  [[menu.main]]
-    name = "ご利用案内"
-    url = "/services/business-sales/"
-    weight = 5
-    
-  [[menu.main]]
-    name = "料金案内"
-    url = "/services/mergers/"
+    url = "/services/option/"
     weight = 6
-
+        
   [[menu.main]]
     name = "お得なプラン"
     url = "/services/superannuation/"
     weight = 7
-
-  [[menu.main]]
-    name = "料金カレンダー＆空き情報"
-    url = "/services/tax-preperation/"
-    weight = 8
-
+ 
   [[menu.main]]
     name = "事故保障＆保険"
     url = "/services/insurance/"
-    weight = 9
+    weight = 8
 
   [[menu.main]]
     name = "レンタカー貸渡約款"
     url = "/services/terms/"
-    weight = 10
+    weight = 9
 
   [[menu.main]]
     name = "アクセス"
     url = "/contact/"
-    weight = 11
-    
+    weight = 10
+
+
+
   #[[menu.main]]
   #  name = "Team"
   #  url = "/team/"
@@ -123,14 +120,13 @@ title = "ツインズ株式会社"
 
 
 
-
   # Footer Menu
-  [[menu.footer]]
-    name = "トップページ"
-    url = "/"
-    weight = 1
+  #[[menu.footer]]
+  #  name = "トップページ"
+  #  url = "/"
+  #  weight = 1
 
-  [[menu.footer]]
-    name = "アクセス"
-    url = "/contact/"
-    weight = 2
+  #[[menu.footer]]
+  #  name = "アクセス"
+  #  url = "/contact/"
+  #  weight = 2
