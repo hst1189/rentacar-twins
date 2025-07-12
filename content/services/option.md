@@ -3,7 +3,7 @@ title: "オプション"
 date: 2018-11-28T15:14:39+10:00
 featured: true
 draft: false
-weight: 5
+weight: 6
 summary: "キャンプ用品等をオプションとして提供させていただきます。"
 ---
 

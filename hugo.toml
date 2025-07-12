@@ -18,9 +18,10 @@ title = "ツインズ株式会社 | キャンピングカーレンタル"
 
   [params.homepage]
     sticky_header = true
-    show_contact_box = true      # show / hide the contaxt box on the homepage
-    show_services_button = true  # show / hide the "view all services" button
-
+    show_contact_box = true      # show/hide the contaxt box on the homepage
+    show_contact_box_line = true # show/hide the contaxt box on the homepage
+    show_services_button = true  # show/hide the "view all services" button
+    
   [params.logo]
     # mobile = "images/logo/logo-mobile.svg"
     mobile = "/images/logo/logo.jpg"
@@ -76,25 +77,26 @@ title = "ツインズ株式会社 | キャンピングカーレンタル"
     url = "/services/money/"
     weight = 3
 
- [[menu.main]]
-    name = "カレンダー＆空き情報"
-    url = "/services/free-space/"
+  [[menu.main]]
+    name = "お得なプラン"
+    url = "/services/plan/"
     weight = 4
+    
+ [[menu.main]]
+    name = "料金カレンダー＆空き情報"
+    url = "/services/free-space/"
+    weight = 5
 
   [[menu.main]]
     name = "車両紹介"
     url = "/services/car-info/"
-    weight = 5
+    weight = 6
   
   [[menu.main]]
     name = "オプション"
     url = "/services/option/"
-    weight = 6
-        
-  [[menu.main]]
-    name = "お得なプラン"
-    url = "/services/superannuation/"
     weight = 7
+        
  
   [[menu.main]]
     name = "事故保障＆保険"

@@ -1,0 +1,15 @@
+<div class="call">
+  <div class="call-box-top">
+    {{ if .site.Data.contact.line }}
+        <div class="call-address">
+          LINEからのご予約・お問い合わせを受け付けております。<br>
+          {{ .site.Data.contact.line }}<br>
+          {{ if .site.Data.contact.line_img }}
+          <img width="300" height="400" alt="line" src="{{ .site.Data.contact.line_img | relURL }}" />
+          {{ end }}
+        </div>
+    {{ end }}
+  </div>
+   
+</div>
+

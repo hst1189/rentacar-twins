@@ -1,13 +1,16 @@
 <div class="call">
   <div class="call-box-top">
     {{ if .site.Data.contact.address }}
-        <div class="call-address"><strong>住所：</strong> {{ .site.Data.contact.address }} </div>
+        <div class="call-address">住所：{{ .site.Data.contact.address }} </div>
     {{ end }}
     {{ if .site.Data.contact.phone }}
-        <div class="call-phone"><strong>電話番号：</strong> {{ .site.Data.contact.phone }} </div>
+        <div class="call-phone">
+          <br>お問い合わせ・予約・専用ダイヤル<br>
+          {{ .site.Data.contact.phone }} （平日12:00～20:00）
+        </div>
     {{ end }}
     {{ if .site.Data.contact.email }}
-        <div class="call-email"><strong>メール：</strong><a href="mailto:{{ .site.Data.contact.email }}">{{ .site.Data.contact.email }}</a></div>
+        <div class="call-email">メール：<a href="mailto:{{ .site.Data.contact.email }}">{{ .site.Data.contact.email }}</a></div>
     {{ end }}
   </div>
     {{ if eq .show_button "true" }}
@@ -16,3 +19,4 @@
       </div>
     {{ end }}
 </div>
+

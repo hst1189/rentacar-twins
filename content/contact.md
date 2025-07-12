@@ -4,7 +4,6 @@ date: 2018-02-22T17:01:34+07:00
 layout: contact
 ---
 
-
 ![map](/images/access/access.jpg)
 
 当店所在地
@@ -14,8 +13,3 @@ layout: contact
 - E-Mail：info.rentacar.twins@gmail.com
 
 
-キャンピングカーレンタル お問い合わせ・予約・専用ダイヤル（平日12:00～20:00）
-
-LINEからのご予約・お問い合わせを受け付けております。
-
-![line](/images/social/line_contact.jpg)

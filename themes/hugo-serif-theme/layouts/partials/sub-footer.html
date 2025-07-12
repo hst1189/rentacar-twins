@@ -6,6 +6,7 @@
           {{ with .Site.Params.footer.copyright_text }}
             <div class="copyright">{{ . | safeHTML }}</div>
           {{ end }}
+          <a class="button button-primary" href="{{ "privacy/" | relURL }}">プライバシーポリシー</a>
         </div>
       </div>
     </div>

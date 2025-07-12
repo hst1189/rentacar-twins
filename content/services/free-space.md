@@ -3,11 +3,11 @@ title: "料金カレンダー＆空き情報"
 date: 2018-11-18T12:33:46+10:00
 draft: false
 featured: true
-weight: 3
+weight: 4
 summary: "料金カレンダー＆空き情報をご確認ください。"
 ---
 
-料金カレンダー＆空き情報をご確認ください。
+{{< redfont text="✖">}}があるところは予約済みとなります。
 
 ![cal](/images/cal/202504.png)
 ![cal](/images/cal/202505.png)
