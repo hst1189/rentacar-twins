@@ -8,7 +8,7 @@
       <a href="{{ .Site.Home.RelPermalink }}"><img height={{ .Site.Params.logo.desktop_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.desktop | relURL }}" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="{{ .Site.Home.RelPermalink }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
+      <a href="{{ .Site.Home.RelPermalink }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" />　{{.Site.Title}}</a>
     </div>
     {{ partial "main-menu.html" . }}
     {{ partial "hamburger.html" . }}
