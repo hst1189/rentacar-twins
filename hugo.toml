@@ -2,7 +2,7 @@ baseURL = "https://rentacar-twins.grapehut.com/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "ja-jp"
-title = "ツインズ株式会社 | キャンピングカーレンタル"
+title = "ツインズ株式会社 | キャンピングカー"
 
 [module]
   [module.hugoVersion]
