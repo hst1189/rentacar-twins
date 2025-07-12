@@ -1,4 +1,4 @@
-baseURL = "https://rentacar-twins.com/"
+baseURL = "https://rentacar-twins.grapehut.com/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "ja-jp"
