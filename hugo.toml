@@ -1,4 +1,4 @@
-baseURL = "http://grapehut.xyz/rentacar-twins/"
+baseURL = "http://test.com/"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "ja-jp"
